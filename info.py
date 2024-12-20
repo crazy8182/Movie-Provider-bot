@@ -73,7 +73,7 @@ GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+A4tVZCXbK2s2YzJl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vegamoviesnewin')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/vegamoviesnewin') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ultroidxTeam')
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : vegamoviesTeam')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002084819782')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/akDiscussion_group') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
@@ -132,7 +132,7 @@ if HAS_SSL:
 else:
     URL = "http://{}/".format(FQDN)
 BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
-OWNER_USERNAME = "LazyDeveloper"
+OWNER_USERNAME = "Mahesh8182"
 
 
 # add premium logs channel id
