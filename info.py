@@ -29,9 +29,9 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'api.shareus.io'))
-STREAM_API = (environ.get('STREAM_API', 'PUIAQBIFrydvLhIzAOeGV8yZppu2'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Ultroid_Official/18'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'linkpays.in'))
+STREAM_API = (environ.get('STREAM_API', 'de20394ac3c17f42a2a636168dd67df9820047c9'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/vegamoviesnewin'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6859451629').split()]
@@ -57,13 +57,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
 # Verify/token system
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
 # HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/Ultroid_Official/18') 
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/Ultroid_Official/18') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/vegamoviesnewin') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'udlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '1853cdc2ad46a9f765f26e7b39cb66989fda42aa')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkpays.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'de20394ac3c17f42a2a636168dd67df9820047c9')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
