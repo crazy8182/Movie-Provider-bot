@@ -57,11 +57,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
 # Verify/token system
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 # HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/Ultroid_Official/18') 
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/vegamoviesnewin') # How to open tutorial link for verification
 
 # Others
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkpays.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'de20394ac3c17f42a2a636168dd67df9820047c9')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
