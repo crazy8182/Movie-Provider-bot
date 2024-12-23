@@ -247,7 +247,10 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 """ 
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-    CAPTION = """ 📂 <i><a href="https://t.me/vegamoviesnewin">{file_name}</a></i>\n\n"""
+    CAPTION = """ 📂 <i><a href="https://t.me/vegamoviesnewin">{filename}
+{size}
+🚀 ᴊᴏɪɴ  ➥「 @vegamoviesnewin 」 
+•─────────★•🥰•★────────•</a></i>\n\n"""
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
