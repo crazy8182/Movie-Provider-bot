@@ -103,7 +103,7 @@ QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160
 # FQDN = ex. => ttoken-78-cdadf96c95a8.herokuapp.com  (remove 'https://' ttoken-78-cdadf96c95a8.herokuapp.com '/' )
 
 # Online Stream and Download
-PORT = int(environ.get('PORT', 5000))
+PORT = int(environ.get('PORT', 8080))
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
 if 'DYNO' in environ:
