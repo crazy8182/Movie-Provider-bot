@@ -52,7 +52,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 # MongoDB information 
 # https://youtu.be/qFB0cFqiyOM?si=QGuFSZ7qhxl4VTrA
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb://admin:admin@localhost/admin")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb://vegamovies:vegamovies@localhost/admin")
 DATABASE_NAME = environ.get('DATABASE_NAME', "admin")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
