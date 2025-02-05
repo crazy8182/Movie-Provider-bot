@@ -248,7 +248,6 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
     CAPTION = """ 📂 <i><a href="https://t.me/vegamoviesnewin">{filename}
-{size}
 🚀 ᴊᴏɪɴ  ➥「 @vegamoviesnewin 」 
 •─────────★•🥰•★────────•</a></i>\n\n"""
 
