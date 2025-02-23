@@ -29,7 +29,7 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'www.vegamoviesnew.in'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'vegamoviesnew.in'))
 STREAM_API = (environ.get('STREAM_API', '055341345685e4f41f9c5b37aa5ce463f888b1a2'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/akimax_03'))
 
@@ -63,7 +63,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/akimax_03') # How to open
 
 # Others
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE',False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'www.vegamoviesnew.in')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'vegamoviesnew.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '055341345685e4f41f9c5b37aa5ce463f888b1a2')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
