@@ -57,15 +57,15 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'lazyfilesx')
 
 # Verify/token system
-VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
 # HOWTOVERIFY = environ.get('HOWTOVERIFY', url='https://t.me/Ultroid_Official/18') 
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/akimax_03') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE',True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE',False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.modijiurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '2cb2361c23083b83cdfcc58c6aef5e109d5d6df1')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))  # else--> True
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))  # else--> True
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
